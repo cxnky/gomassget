@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/cxnky/betterget/utils"
+	"github.com/cxnky/gomassget/utils"
 	"fmt"
 	"strconv"
 )

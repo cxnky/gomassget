@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"runtime"
 	"path/filepath"
 	"os"
 	"bufio"
@@ -16,26 +15,6 @@ import (
  * https://github.com/cxnky/
  
 **/
-
-func GetOSName() string {
-
-	switch runtime.GOOS {
-
-	case "darwin":
-		return "osx"
-
-	case "windows":
-		return runtime.GOOS
-
-	case "linux":
-		return runtime.GOOS
-
-	default:
-		return runtime.GOOS
-
-	}
-
-}
 
 func GetPWD() string {
 
