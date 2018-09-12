@@ -19,7 +19,7 @@ func main() {
 
 	var textFile string
 
-	flag.StringVar(&textFile, "file", "packages.txt", "define the location of the text file to mass import from")
+	flag.StringVar(&textFile, "file", "packages.txt", "define the name of the text file to mass import packages from")
 	flag.Parse()
 
 	pwd := utils.GetPWD()
